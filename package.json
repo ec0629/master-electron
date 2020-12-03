@@ -1,0 +1,18 @@
+{
+  "name": "master-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
+    "reset": "git reset --hard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "nodemon": "^2.0.6"
+  }
+}
